@@ -1,0 +1,10 @@
+all:
+  children:
+    virtualmachines:
+      hosts:
+        vm1:
+          ansible_host: 20.25.178.30
+          ansible_connection: ssh
+          ansible_port: 22
+          ansible_user: azureuser
+          ansible_ssh_private_key_file: /Users/apple/Downloads/vm_key1.pem
